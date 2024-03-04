@@ -1,0 +1,71 @@
+body {
+  background-color:black ;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+a {
+  color: aquamarine;
+}
+
+.main--container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 1em;
+  font-size: 16px;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.btm_item_primary {
+  background-color: aqua;
+  color: black;
+}
+
+.form_wrapper {
+  margin: 2em 0;
+}
+
+.advocate__lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.advocate__preview__wrapper {
+  width: 500px;
+}
+
+.advocate__preview__header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.advocate__preview__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid green;
+
+}
+
+.bio__preview {
+  display: block;
+  margin: 1em 0;
+}
